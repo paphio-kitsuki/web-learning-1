@@ -10,7 +10,7 @@ html {
 }
 
 h1 {
-	margin: 0;
+	margin: 0; /*コンテンツの内側がpadding, 境目がborder, 外側がmargin*/
 	padding: 20px 0;
 	color: blueviolet;
 	text-shadow: 3px 3px 1px rgb(244, 255, 146);
@@ -29,7 +29,7 @@ body {
 	width: 600px;
 	margin: 0 auto;
 	background-color: #f0b99e;
-	padding: 0 20px 20px 20px;
+	padding: 0 20px 20px 20px; /*上, 右, 下, 左*/
 	border: 5px solid black;
   }
   
